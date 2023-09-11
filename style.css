@@ -1,6 +1,6 @@
 body,
-h1,
-form {
+.h1,
+.form {
   margin: 0;
   padding: 0;
 }
@@ -23,21 +23,21 @@ form {
   display: inline-block;
 }
 
-nav ul {
+.nav .ul {
   list-style-type: none;
   display: flex;
   gap: 60px;
 }
-img {
+.img {
   height: 10vh;
   position: relative;
   margin: -20px;
 }
-nav img {
+.nav img {
   transform: scale(0.5, 0.5);
   overflow: hidden;
 }
-nav ul li a {
+.nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -45,15 +45,15 @@ nav ul li a {
   text-align: center;
 }
 
-nav ul li a:hover {
+.nav ul li a:hover {
   text-decoration: underline;
 }
 
-header img {
+.header img {
   max-width: 150px;
 }
 
-main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,13 +79,13 @@ main {
   width: 600px;
 }
 
-form label {
+.form .label {
   display: block;
   margin-bottom: 10px;
 }
 
-form input[type="text"],
-form input[type="password"] {
+.form input[type="text"],
+.form input[type="password"] {
   width: 100%;
   padding: 8px;
   margin-bottom: 20px;
@@ -98,7 +98,7 @@ form input[type="password"] {
   top: 145px;
   left: 320px;
 }
-form button {
+.form .button {
   background-color: #000;
   color: #fff;
   padding: 10px 20px;
@@ -108,7 +108,7 @@ form button {
   transition: background-color 0.3s ease;
 }
 
-form button:hover {
+.form .button:hover {
   background-color: #005a91;
 }
 
@@ -136,9 +136,10 @@ form button:hover {
 
 .id-image {
   position: absolute;
-  left: 315px;
+  left: 300px;
   transform: scale(0.3, 0.3);
-  top: 105px;
+  top: 100px;
+  height: 75px;
 }
 .footer {
   text-align: center;
